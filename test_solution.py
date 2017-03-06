@@ -12,6 +12,7 @@ class TestSolution(unittest.TestCase):
 		self.assertTrue (solution(10,20,"*"),200)
 	def test_modulers(self):
 		self.assertTrue (solution(15,2,"%"),1)
+		
 
 if __name__ == '__main__':
     unittest.main()
